@@ -5,67 +5,67 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "JavaScript Essentials",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/javascript-essentials?id=VXVROTNTZT",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Build Your Own Dynamic Web Application",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/dynamic-web-application?id=UCJHWQCJPW",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "Developer Foundations",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/developer-foundations?id=SMBOJMHZNF",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Responsive Web Design using Flexbox",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/responsive-web-design-using-flexbox?id=QDREUJGNVL",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Introduction to Databases",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/introduction-to-databases?id=MTVLSZVRXQ",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Programming Foundations with Python",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/programming-foundations-with-python?id=QPXXXMTVYK",
   },
   {
     title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/build-your-own-responsive-website?id=WBDHUZTBSD",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "HTML, CSS",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
+    moocLink: "https://certificates.ccbp.in/academy/static-website?id=RUWZKGFQJL",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera2.svg",
+    title: "Introduction to AWS",
+    cardImage: "https://media.licdn.com/dms/image/C560BAQFzaJNs-JSe4w/company-logo_200_200/0/1648218852378?e=1726704000&v=beta&t=tHuDKAE-aAg7MFe7Q2ZkIKzo95wkfUVgd8Yzr9CDJYA",
     moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
+      "https://cdn1.ccbp.in/misc/aws-workshop-completion-certificate/FPYF5SYAHN.png",
   },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  // {
+  //   title: "NodeJS, Express and MongoDB",
+  //   cardImage: "assets/images/education-page/coursera2.svg",
+  //   moocLink: "https://www.coursera.org/learn/server-side-nodejs",
+  // },
+  // {
+  //   title: "XML-AJAX",
+  //   cardImage: "assets/images/education-page/udemy.svg",
+  //   moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
+  // },
+  // {
+  //   title: "Data Structures & Algorithms",
+  //   cardImage: "assets/images/education-page/udacity.svg",
+  //   moocLink:
+  //     "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+  // },
 ];
 
 const experience = [
