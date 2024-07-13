@@ -6,12 +6,52 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Jobby App",
+    cardImage: "https://assets.ccbp.in/frontend/react-js/jobby-app/life-facebook-img.png",
+    description: "Jobby app made with react js with restful api and router",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohanjobbyapp.ccbp.tech/login",
+    Githublink: "https://github.com/sohan-gupthak/jobby-app-reactjs",
+  },
+  {
+    title: "Events Page",
+    cardImage: "https://assets.ccbp.in/frontend/react-js/events-kuchipudi-img.png",
+    description: "This Events page made with React js using switch",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohanevents.ccbp.tech/",
+    Githublink: "https://github.com/sohan-gupthak/events-switch-reactjs",
+  },
+  {
+    title: "Ipl Dashboard",
+    cardImage: "https://assets.ccbp.in/frontend/react-js/rcb-team-img.png",
+    description: "Ipl Dashboard made with react js and Restful api's",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohanipldash.ccbp.tech/",
+    Githublink: "https://github.com/sohan-gupthak/ipl-dashboard-reactjs",
+  },
+  {
     title: "My GenAI",
     cardImage: "https://herobot.app/wp-content/uploads/2022/11/AI-bot-1.jpg",
     description: "Riya can be your All-in-One Assistant, from answering questions to engaging in casual conversations",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://sohangenai.ccbp.tech/",
     Githublink: "",
+  },
+  {
+    title: "Popular Repos",
+    cardImage: "https://avatars.githubusercontent.com/u/43716716?v=4",
+    description: "popular repos made with react js with restful api",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohanplrrepos.ccbp.tech/",
+    Githublink: "https://github.com/sohan-gupthak/git-popular-repos-reactjs",
+  },
+  {
+    title: "Windows theme",
+    cardImage: "https://assets.ccbp.in/frontend/react-js/gaming-pad-img.png",
+    description: "Windows theme made with react js using context",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohancontext.ccbp.tech/",
+    Githublink: "https://github.com/sohan-gupthak/windows-reactjs-context",
   },
   {
     title: "Blog page",
