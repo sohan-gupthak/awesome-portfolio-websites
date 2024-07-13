@@ -9,7 +9,7 @@ const exp = [
     cardImage: "https://pbs.twimg.com/profile_images/1630449814445109250/eKptiu9P_400x400.jpg",
     place: "T-works",
     time: "(Dec, 2023)",
-    desp: "<li>onducted code reviews and mentored junior team members to enhance their technical skills and promote best practices within the team </li> <li>Offered technical guidance and support to volunteers and participants.</li> <li>addressing queries and resolving issues promptly to maintain event momentum.</li>",
+    desp: "<li>Conducted code reviews and mentored junior team members to enhance their technical skills and promote best practices within the team </li> <li>Offered technical guidance and support to volunteers and participants.</li> <li>addressing queries and resolving issues promptly to maintain event momentum.</li>",
   },
 ];
 
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
+    title: "GirlScript Summer Of Code 2024",
     cardImage: "assets/images/experience-page/1.jpg",
     description:
       "GirlScript Summer Of Code is a three-month-long Open-Source Program conducted every summer by the Girlscript Foundation",
