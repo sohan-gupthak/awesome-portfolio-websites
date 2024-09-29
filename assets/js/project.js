@@ -6,8 +6,24 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Youtube Clone",
+    cardImage: "https://assets.ccbp.in/frontend/content/react-js/nxt-watch-home-success-light-theme-lg-output-v0.png",
+    description: "Built Nxt Watch using React and Styled Components, showcasing responsive design, API-driven video content, authentication handling, and theme customization.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://sohanwatch.ccbp.tech/login",
+    Githublink: "https://github.com/sohan-gupthak/nxt-watch-reactjs",
+  },
+  {
+    title: "Tic-Tac-Toe Game",
+    cardImage: "https://res.cloudinary.com/dzy06xsm9/image/upload/v1727602495/Screenshot_2024-09-29_144750_fb8gau.png",
+    description: "Full Stack React Application using the Stream API. For the backend I have used NodeJS and Express. This project is a multiplayer tic tac toe game where players can chat between each other.",
+    tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
+    Previewlink: "https://github.com/sohan-gupthak/tic-tac-toe-gameGetstream",
+    Githublink: "https://github.com/sohan-gupthak/tic-tac-toe-gameGetstream",
+  },
+  {
     title: "Jobby App",
-    cardImage: "https://assets.ccbp.in/frontend/react-js/jobby-app/life-facebook-img.png",
+    cardImage: "https://assets.ccbp.in/frontend/content/react-js/jobby-app-home-lg-output.png",
     description: "Jobby app made with react js with restful api and router",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://sohanjobbyapp.ccbp.tech/login",
@@ -39,7 +55,7 @@ const projects = [
   },
   {
     title: "Popular Repos",
-    cardImage: "https://avatars.githubusercontent.com/u/43716716?v=4",
+    cardImage: "https://assets.ccbp.in/frontend/content/react-js/github-repos-lg-success-output.png",
     description: "popular repos made with react js with restful api",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://sohanplrrepos.ccbp.tech/",
@@ -55,7 +71,7 @@ const projects = [
   },
   {
     title: "Blog page",
-    cardImage: "https://assets.ccbp.in/frontend/react-js/profile-img.png",
+    cardImage: "https://assets.ccbp.in/frontend/content/react-js/fetch-and-routing-practice-sm-outputs.png",
     description: "A simple Blog page using react with api.",
     tagimg: "https://image.flaticon.com/icons/png/512/643/643350.png",
     Previewlink: "https://sohanblogpage.ccbp.tech",

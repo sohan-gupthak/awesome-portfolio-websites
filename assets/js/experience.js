@@ -5,6 +5,14 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Software Engineer Intern",
+    cardImage: "https://qwipo.com/img/logo.png",
+    place: "Qwipo",
+    time: "(Sep, 2024) - Present",
+    desp: "",
+    // desp: "<li>Conducted code reviews and mentored junior team members to enhance their technical skills and promote best practices within the team </li> <li>Offered technical guidance and support to volunteers and participants.</li> <li>addressing queries and resolving issues promptly to maintain event momentum.</li>",
+  },
+  {
     title: "Tech Lead",
     cardImage: "https://pbs.twimg.com/profile_images/1630449814445109250/eKptiu9P_400x400.jpg",
     place: "T-works",
