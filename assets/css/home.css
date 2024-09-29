@@ -329,33 +329,98 @@ html[light-mode="dark"] .github-icon{
 
  /*
   --------------------------
-     DRIBBBLE MICROANIMATION
+     LEETCODE MICROANIMATION
   --------------------------
   */
-  
-  .dribbble-icon{
+
+
+  #leetcode {
     width: 30px;
     height: 30px;
-    margin-left:16px;
-    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 15px;
+    margin-top: 15px;
   }
-  
-  .dribbble:hover .dribbble-icon{ 
-      animation: dribbble-bounce .4s ease infinite;
-      transform: rotate(360deg);
-      transition: all 9s ease-in-out 0s;
+
+  #leetcode {
+    animation: pulse 2s infinite ease-in-out;
+    transform-origin: center;
   }
-  
-  @keyframes dribbble-bounce {
-    from, to {
-      margin-top: 20px;
+
+  #leetcode path:nth-child(1) {
+    fill: #B3B1B0;
+    transition: fill 0.5s ease;
+  }
+
+  #leetcode:hover path:nth-child(2) {
+    fill: #E7A41F;
+    transform-origin: center;
+    animation: rotateAndScale 4s infinite ease-in-out;
+  }
+
+  #leetcode:hover path:nth-child(3) {
+    fill: #070706;
+    animation: bounce 2.5s infinite ease-in-out, colorShift 4s infinite alternate;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
     }
-    50% { 
-      margin-top: 15px; 
+    50% {
+      transform: scale(1.1);
     }
-    
-    75%{
-      margin-top: 15px;
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes colorChange {
+    0% {
+      fill: #B3B1B0;
+    }
+    50% {
+      fill: #F39C12;
+    }
+    100% {
+      fill: #B3B1B0;
+    }
+  }
+
+  @keyframes rotateAndScale {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(360deg) scale(1.2);
+    }
+    100% {
+      transform: rotate(0deg) scale(1);
+    }
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(-5px);
+    }
+    60% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes colorShift {
+    0% {
+      fill: #070706;
+    }
+    100% {
+      fill: #3498DB;
     }
   }
   
